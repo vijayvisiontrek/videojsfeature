@@ -2,7 +2,11 @@
      let count=0;
          document.querySelector('#prev').addEventListener('dblclick', ()=>{ backward()});
  
-         document.querySelector('#next').addEventListener('dblclick',()=>{forward()});
+         document.querySelector('#next').addEventListener('dblclick',()=>{
+             
+            forward()}
+            
+            );
  
          let videoplayer=videojs('my-video',{
              controls:true,
